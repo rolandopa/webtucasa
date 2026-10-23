@@ -8,10 +8,14 @@ import Equipo from '@/components/Equipo';
 import Herramientas from '@/components/Herramientas';
 import Objetivos from '@/components/Objetivos';
 import Footer from '@/components/Footer';
+import AudioPlayer from '@/components/AudioPlayer';
+import WhatsAppButton from '@/components/WhatsAppButton';
+import IntroSplash from '@/components/IntroSplash';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      <IntroSplash />
       <Header />
       <main>
         <Hero />
@@ -24,6 +28,8 @@ function App() {
         <Objetivos />
       </main>
       <Footer />
+      <AudioPlayer />
+      <WhatsAppButton />
     </div>
   );
 }
