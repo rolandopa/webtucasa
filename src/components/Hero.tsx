@@ -88,7 +88,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden"
+      className="relative min-h-screen flex items-center pt-36 sm:pt-40 lg:pt-44 xl:pt-48 pb-16 overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-cyan-dark" />

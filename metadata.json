@@ -1,0 +1,8 @@
+{
+  "name": "Tu Casa Rionegro",
+  "description": "Estrategia integral de atención humanizada frente a la habitanza en calle y el consumo problemático de sustancias psicoactivas en Rionegro.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
