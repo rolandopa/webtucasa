@@ -16,16 +16,16 @@ export default function IntroSplash({ onFinish }: IntroSplashProps) {
       setStage('animate');
     }, 50);
 
-    // Stage 2: start smooth exit fade out
+    // Stage 2: start smooth exit fade out (+3 seconds duration)
     const timer2 = setTimeout(() => {
       setStage('exit');
-    }, 2400);
+    }, 5400);
 
     // Stage 3: completely unmount/hide
     const timer3 = setTimeout(() => {
       setStage('hidden');
       if (onFinish) onFinish();
-    }, 3100);
+    }, 6100);
 
     return () => {
       clearTimeout(timer1);
@@ -122,7 +122,7 @@ export default function IntroSplash({ onFinish }: IntroSplashProps) {
             className={`h-full bg-gradient-to-r from-brand-cyan via-accent-emerald to-brand-cyan rounded-full transition-all ease-linear ${
               stage === 'enter' ? 'w-0' : 'w-full'
             }`}
-            style={{ transitionDuration: '2400ms' }}
+            style={{ transitionDuration: '5400ms' }}
           />
         </div>
 
