@@ -22,7 +22,7 @@ const NAV_LINKS = [
   { label: 'Contacto', href: '#contacto' },
 ];
 
-const TARGET_URL = 'https://tucasaoperativa.netlify.app/';
+const TARGET_URL = 'https://tucasacentrooperativo.vercel.app/';
 const ACCESS_PASSWORD = 'rionegro*2027';
 
 export default function Header() {
